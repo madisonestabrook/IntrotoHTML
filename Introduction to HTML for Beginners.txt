@@ -1,0 +1,69 @@
+# Introduction to HTML for Beginners #
+Hypertext Markup Language (**HTML**) is used to create webpages. HTML is used with Cascading Style Sheets (CSS), which style the webpage. HTML is used with JavaScript, which helps make web pages interactive. The latest version of HTML is HTML5. In HTML, **having both opening and closing tags is very important**. 
+
+[CodePen](www.Codepen.io) is a free online editor that supports HTML, CSS, and JavaScript. You can use CodePen to follow along in this lesson. 
+
+In this lesson, you will learn will about:  
+* Div tags,    
+* h1-h6,  
+* Anchors, 
+* Images and   
+* Videos.
+
+## Div Tags ## 
+A div tag is used to define a section within an HTML document. An example is: 
+> <div> 
+> Hello, World!
+> </div> 
+
+In this example, the div tag surrounds the text “Hello, World!” **If you do not have both an opening <div> and closing </div> tags, your code will not compile, which means that your code contains errors. ** 
+
+## Headings ## 
+
+In HTML, headings are signified by the <h1> </h1>, <h2> </h2>, <h3> </h3>, <h4> </h4>, <h5> </h5>, and <h6> </h6> tags: 
+> <h1> Heading 1 </h1> 
+> <h2> Heading 2 </h2> 
+> <h3> Heading 3 </h3> 
+> <h4> Heading 4 </h4>
+> <h5> Heading 5 </h5> 
+> <h6> Heading 6 </h6> 
+
+You can replace the content between the tags with the content that you need to use. For example, using types of food: 
+> <h1> Food </h1> 
+> <h2> Yellow Food </h2> 
+> <h3> Sour, Yellow Food </h3> 
+> <h4> Lemons </h4>
+> <h5> Meyer Lemons </h5> 
+> <h6> Origin of Meyer Lemons </h6> 
+
+## Anchors ## 
+In HTML, anchors are displayed with: 
+> <a name="value"> Content </a> 
+
+Anchors can also be part of hyperlinks. For example, a hyperlink to Google is [google.com](google.com) in HTML is: 
+> <a href = "google.com"> Content </a> 
+
+## Images ## 
+A <img> tag is used in HTML to display images on a webpage. For example, the code used for an image with a width of 300 pixels is: 
+>  <img src="URL" width: 300px />
+
+## Videos ## 
+A <video> </video> tag is used in HTML to display videos on a webpage. For example, the code used for a movie, mp4file.mp4 and oggfile.ogg, with a width of 320 pixels and a height of 240 pixels is: 
+> <video width="320" height="240" controls>
+>  <source src="mp4file.mp4" type="video/mp4">
+>  <source src="oggfile.ogg" type="video/ogg">
+> </video> 
+
+## Summary ##
+We use the tags in HTML to indicate: 
+> * <div> Sections </div>   
+> * <h1> Headings 1-6 <h1>   
+>	* <h2> Heading 2 </h2> 
+>	* <h3> Heading 3 </h3> 
+>	* <h4> Heading 4 </h4> 
+>	* <h5> Heading 5 </h5> 
+>	* <h6> Heading 6 </h6>   
+>   *  <a name = "value"> Anchors </a>    
+> *  <img src="URL" width: ypx> Images with a width of y, and     
+> *  <video> Videos <videos>  
+
