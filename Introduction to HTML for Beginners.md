@@ -16,7 +16,7 @@ A div tag is used to define a section within an HTML document. An example is:
 > Hello, World!
 > </div> 
 
-In this example, the div tag surrounds the text ìHello, World!î **If you do not have both an opening <div> and closing </div> tags, your code will not compile, which means that your code contains errors. ** 
+In this example, the div tag surrounds the text ‚ÄúHello, World!‚Äù **If you do not have both an opening <div> and closing </div> tags, your code will not compile, which means that your code contains errors. ** 
 
 ## Headings ## 
 
